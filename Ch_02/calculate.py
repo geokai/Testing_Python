@@ -8,8 +8,11 @@ class Calculate(object):
     """calculator class"""
 
     def add(self, x, y):
-        """add calculator method - return x + y"""
-        return x + y
+        """add calculator method - return x + y. Test for type int"""
+        if type(x) == int and type(y) == int:
+            return x + y
+        else:
+            raise TypeError('Invalid type: {} and {}'.format(type(x), type(y)))
 
 
 if __name__ == '__main__':

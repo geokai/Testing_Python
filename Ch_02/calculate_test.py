@@ -19,6 +19,10 @@ class TestCalculate(unittest.TestCase):
         """add method test - assertEqual"""
         self.assertEqual(4, self.calc.add(2, 2))
 
+    def test_add_method_raises_typeerror_if_not_ints(self):
+        """test for correct 'Raise' for type error"""
+        self.assertRaises(TypeError, self.calc.add, 'Hello', 'World')
+
 
 if __name__ == '__main__':
     unittest.main()
