@@ -1,5 +1,4 @@
 ## Testing Python
-
 ### Appling Unit Testing. TDD, BDD, and Acceptance Testing
 
 ### Author: David Sale
