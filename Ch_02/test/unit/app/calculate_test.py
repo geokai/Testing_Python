@@ -5,7 +5,7 @@
 
 
 import unittest
-from calculate import Calculate
+from app.calculate import Calculate
 
 
 class TestCalculate(unittest.TestCase):

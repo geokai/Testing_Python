@@ -7,6 +7,9 @@
 class Calculate(object):
     """calculator class"""
 
+    def __init__(self):
+        """empty initializer"""
+
     def add(self, x, y):
         """add calculator method - return x + y. Test for type int"""
         if type(x) == int and type(y) == int:
