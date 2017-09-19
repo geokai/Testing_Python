@@ -7,3 +7,4 @@
 
 # directories:
 __pycache__/
+.coverage
