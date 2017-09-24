@@ -3,9 +3,10 @@
 # This file was created on 17/09/2017
 # Author: George Kaimakis - https://github.com/geokai
 
-
 import unittest
-from app.calculate import Calculate
+
+import _mypath
+from calculate import Calculate
 
 
 class TestCalculate(unittest.TestCase):
